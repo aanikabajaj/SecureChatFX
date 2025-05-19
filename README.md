@@ -1,18 +1,16 @@
-## Getting Started
+## Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Developed a full-featured secure messaging application using Java, JavaFX, and RSA encryption, enabling encrypted one-on-one and group messaging with rich GUI. Implemented advanced features like scheduled message delivery with priority levels, profanity filtering, message queuing, chat history, user blocking, and group chat management. Integrated live typing indicators, a responsive UI without custom CSS styling, and real-time interactions. Backend designed with clean modular structure supporting future extensibility.
 
-## Folder Structure
+Tools and Technologies Used:
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Java – Core programming language for backend logic and message handling
+2. JavaFX – GUI framework for building responsive and interactive user interfaces
+3. RSA Encryption – Ensures secure, end-to-end encrypted messaging
+4. Java Collections (HashMap, LinkedList, etc.) – Efficient data structures for managing users, chats, and groups
+5. Java Threads & Timers – Used for implementing scheduled message delivery and typing indicators
+6. Object-Oriented Programming (OOP) – Clean modular design using classes and encapsulation
+7. Custom Chat Manager – Handles conversations, inbox, blocked users, and group operations
+8. Message Scheduler – Delivers delayed messages based on user-defined schedule and priority
+9. Profanity Filter – Prevents inappropriate content from being sent
+10. Exception Handling – Robust input validation and error alerts to ensure smooth UX
